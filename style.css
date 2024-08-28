@@ -12,6 +12,10 @@ body {
     background: #2a2b32;
 }
 
+.col {
+    width: fit-content;
+    justify-items: center;
+}
 a {
     color: #ccc;
     text-decoration: none;
@@ -32,7 +36,12 @@ h2 {
     font-size: 2.5rem;
     font-weight: bold;
 }
-
+canvas {
+    height: 100vh;
+    z-index: -1000;
+    position: fixed;
+    top: 0px;
+}
 .mb {
     margin-bottom: 3rem;
 }
