@@ -16,15 +16,18 @@ body {
   width: fit-content;
   justify-items: center;
 }
-a {
+a,
+.button {
   color: #ccc;
   text-decoration: none;
   transition: 0.3s;
+  background: none;
+  border: none;
 }
-a:hover {
+a:hover,
+.button:hover {
   color: #e91e63;
 }
-
 h1.header {
   color: #e91e63;
   font-size: 2.5rem;
