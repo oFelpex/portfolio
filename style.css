@@ -1,82 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:ital,wght@0,400;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:ital,wght@0,400;1,300;1,400;1,500;1,700&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Unbuntu', sans-serif;
-    height: 100%;
-    background: #2a2b32;
+  font-family: "Unbuntu", sans-serif;
+  height: 100%;
+  background: #2a2b32;
 }
 
 .col {
-    width: fit-content;
-    justify-items: center;
+  width: fit-content;
+  justify-items: center;
 }
 a {
-    color: #ccc;
-    text-decoration: none;
-    transition: .3s;
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
 }
 a:hover {
-    color: #e91e63;
+  color: #e91e63;
 }
 
 h1.header {
-    color: #e91e63;
-    font-size: 2.5rem;
-    font-weight: bold;
+  color: #e91e63;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 h2 {
-    color: #616161;
-    font-size: 2.5rem;
-    font-weight: bold;
+  color: #616161;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 canvas {
-    height: 100vh;
-    z-index: -1000;
-    position: fixed;
-    top: 0px;
+  height: 100vh;
+  z-index: -1000;
+  position: fixed;
+  top: 0px;
 }
 .mb {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .logo {
-    font-family: 'Monoton', cursive;
-    color: #fff;
-    font-size: 10rem;
+  font-family: "Monoton", cursive;
+  color: #fff;
+  font-size: 8rem;
+  width: 100%;
 }
 
 .links-list ul li {
-    list-style: none;
-    margin-right: 2rem;
-    font-size: 1.8rem;
-    margin-bottom: 0;
+  list-style: none;
+  margin-right: 2rem;
+  font-size: 1.8rem;
+  margin-bottom: 0;
 }
 
 .links-list h1 {
-    color: #fff;
-    font-size: 2.5rem;
+  color: #fff;
+  font-size: 2.5rem;
 }
 .links-list ul li span {
-    background-color: #e91e63;
-    font-size: 1.2rem;
-    border-radius: 10px;
-    padding: 3px 6px;
-    font-weight: bold;
-    margin-left: 0.5rem;
-    color: #fff;
+  background-color: #e91e63;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 3px 6px;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  color: #fff;
 }
 
 .footer {
-    margin-top: 6rem;
+  margin-top: 6rem;
 }
-.footer p{
-    color: #fff;
-    font-size: 1.3rem;
+.footer p {
+  color: #fff;
+  font-size: 1.3rem;
 }
